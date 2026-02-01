@@ -19,23 +19,25 @@ It uses real-time data from the ExchangeRate-API to provide accurate conversion 
 ## Installation
 
 1.  Clone the repository:
-        git clone [https://github.com/NSHDMI/Applications-Exchange.git](https://github.com/NSHDMI/Applications-Exchange.git)
-    cd Applications-Exchange
+  ```
+  git clone [https://github.com/NSHDMI/Applications-Exchange.git](https://github.com/NSHDMI/Applications-Exchange.git)
+
+  cd Applications-Exchange
+  ```
+
+4.  Install dependencies:
+        ```pip install -r requirements.txt```
     
 
-2.  Install dependencies:
-        pip install -r requirements.txt
-    
-
-3.  Set up the API key:
+5.  Set up the API key:
     * Get a free API key from [ExchangeRate-API](https://www.exchangerate-api.com/).
     * Create a .env file in the project root.
     * Add the following line:
-                EXCHANGE_API_KEY=your_actual_key_here
+                ```EXCHANGE_API_KEY=your_actual_key_here```
         
 
-4.  Run the application:
-        python Exchange.py
+6.  Run the application:
+        ```python Exchange.py```
     
 
 ---
